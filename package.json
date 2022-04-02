@@ -6,11 +6,19 @@
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
+  "default": "index.html",
   "author": "Tyler Coen",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.4.1",
+    "buffer": "^6.0.3",
     "parcel": "^2.4.1",
-    "sass": "^1.49.10"
+    "process": "^0.11.10",
+    "sass": "^1.49.10",
+    "util": "^0.12.4"
+  },
+  "dependencies": {
+    "core-js": "^3.21.1",
+    "regenerator-runtime": "^0.13.9"
   }
 }
