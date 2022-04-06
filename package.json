@@ -2,11 +2,11 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "Recipe application",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
-  "default": "index.html",
   "author": "Tyler Coen",
   "license": "ISC",
   "devDependencies": {
